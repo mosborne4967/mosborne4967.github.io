@@ -1,0 +1,258 @@
+@charset "UTF-8";
+/* MacBook Pro (13-inch, 2017) */
+@media (max-width:2560px){
+	
+/* Info 
+	Author: Mary E. Osborne
+	For: FBLA-PBL
+	Catagory: Website Design
+	Date: Feb 2019
+	All Rights Reserved Copyright
+
+	Color Scheme:
+	White: rgb(255,255,255)
+	Red: rgb(239,57,85)	
+	Pink: rgb(241,129,147)
+	Torquoise: rgb(135,207,190)
+*/
+
+/* Body style */
+html{
+	background-color: rgb(135,207,190)
+}
+
+body{
+	width: 100%;
+	max-width: 1020px;
+	min-width: 640px;
+	margin: 0 auto;
+	font-family: PT Sans Narrow, Arial, sans-serif;
+}
+
+/* Header Styles */
+header{
+    background-color: white;
+    float: left;
+	color: rgb(241,129,147);
+}
+header img{
+    float: left;
+    padding-right: 5px;
+    padding-left: 40px;
+}
+
+/*Navigation Styles */
+header nav ul {
+    list-style-type: none;
+    font-family: PT Sans, sans-serif;
+    float: right;
+}
+header nav ul li {
+    display: inline-block;
+    align-content: center;
+    padding-top: 37px;
+    padding-right: 35px;
+	padding-left: 20px;
+    font-size: x-large;
+    color: rgba(241,129,147,1.00);
+}
+nav a:link, nav a:visited{
+	color: rgb(239,57,85);
+	font-weight: bold;
+	text-decoration: none;
+}
+nav a:hover, nav a:active{
+	color: rgb(135,207,190);
+	text-decoration: underline;
+}
+
+/* Section Styles */
+section#fullcol{
+    background-color: rgb(241,129,147);
+	clear: both;
+    margin: 0;
+    width: 98%;
+	padding: 10px;
+}
+section#full col h1{
+    text-align: center;		
+}
+
+/* Table Styles */
+section td, section th{
+    padding: 4px;
+    text-align: center;
+    border-color: rgb(241,129,147);
+    background-color: white;
+    -webkit-box-shadow: -3px 2px 11px rgb(239,57,85));
+    box-shadow: -3px 2px 11px rgb(239,57,85);
+}
+section th{
+    color: white;
+    background-color: rgb(239,57,85);
+    font-weight: bolder;
+    font-variant: small-caps;
+    font-size: x-large;
+}
+section td{
+    font-size: large;
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Footer styles */
+footer{
+	background-color: rgb(255,255,255);
+	clear: left;
+	color: rgb(239,57,85);
+	text-align: center;
+	padding: 5px;
+}
+	
+/*iPhone 6 styles*/
+	
+@media only screen 
+and (min-device-width : 375px) 
+	and (max-device-width : 667px) {}}
+
+/*iPhone 6 styles*/
+@media (max-width:375px){
+body header img {
+    width: 301px;
+    clear: both;
+    padding-left: 31px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+	height: 122px;
+}
+body header {
+    width: 375px;
+    height: 223px;
+}
+body header nav {
+    width: 375px;
+    clear: both;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+body header nav ul {
+    width: 375px;
+}
+body header nav ul li {
+    width: 10px;
+    height: 10px;
+    font-size: x-small;
+    text-align: center;
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    float: left;
+    clear: none;
+}
+body header nav ul li a {
+    float: left;
+    font-size: small;
+    line-height: 1em;
+    text-align: center;
+    font-weight: bolder;
+    font-variant: normal;
+    text-indent: 42px;
+    text-shadow: 0px 0px;
+    padding-left: 30px;
+}
+body footer {
+    width: 375px;
+}
+#container #fullcol {
+    width: 365px;
+}
+tbody tr th {
+    font-size: medium;
+}
+tbody tr td {
+    font-size: small;
+    display: table-cell;
+}
+#container #fullcol p {
+    text-align: center;
+}
+#container #fullcol h1 {
+    text-align: center;
+}
+.tableheading {
+    display: none;
+}
+td {
+    width: 145px;
+    text-indent: 0px;
+}
+.price {
+    width: 40px;
+}
+.tabletitle {
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+}
+table, body, tr, td, th{
+		display: block;
+	}
+#container #fullcol p {
+    text-align: center;
+}
+}
+
+/*iPad Mini*/
+@media (max-width:768px){
+body header img {
+    width: 301px;
+    padding-left: 16px;
+}
+body header {
+    width: 768px;
+}
+body header nav ul {
+    width: 388px;
+    height: 53px;
+}
+body header nav ul li {
+    width: 10px;
+    font-size: medium;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+body header nav ul li a {
+    float: left;
+    line-height: 19px;
+    padding-top: 14px;
+    text-align: center;
+    text-indent: -22px;
+	font-weight: bolder;
+    text-transform: uppercase;
+    font-size: small;
+	}
+}
+
+
+.flare {
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 70px;
+    text-shadow: 3px -1px #F03955;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: -7px;
+}
+.center {
+    text-align: center;
+    text-shadow: 2px 2px 22px #EF3955;
+}
+.smallflare {
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    text-shadow: -4px 2px 30px #FFFFFF;
+}
+/*iMac Retina 4K 21.5inch*/
+@media (max-width:4096px){
+}
